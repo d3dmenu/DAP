@@ -18,26 +18,38 @@
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md">Report Bug</a>
     ·
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md">Request Feature</a>
+    -->
   </p>
-</p> -->
+</p> 
+
+<!-- ABOUT THE PROJECT -->
+## DAP Cashflow dashboard features <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+
+Features:
+* Select a range of timeline.
+* Generate a new file of the dashboard `you can edit the report that you've retrieved`
+* You can also optionally adjust the formulas inside the dashboard.
+
+Here are the sample commands to retrieve the dashboard:
 
 ### Command
 
-1. Select all data
+1. To retrieve the **whole timeline**
    ```sh
-   make all
+   @DAP make all
    ```
-2. Select date range
+2. To retrieve only **one specific month**
    ```sh
-   make jan 2021 dec 2022
+   @DAP make June 2021
    ```
+3. To retrieve **a specific range of timeline**, e.g. between January to December 2021
    ```sh
-   make jan dec 2021 2022
+   @DAP make January December 2021
+
+   @DAP make January 2021 December 2022
+
+   @DAP make January December 2021 2022
    ```
-   ```sh
-   make jan dec 2022
-   ```
-3. Select specific month | year
-   ```sh
-   make {year} or make {month} {year}
-   ```
+```diff
++ You can use the abbreviated month name!
+```
