@@ -12,14 +12,14 @@
     <br />
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
+<!--     <br />
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md">View Demo</a>
     ·
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md">Report Bug</a>
     ·
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md">Request Feature</a>
   </p>
-</p>
+</p> -->
 
 ### Command
 
