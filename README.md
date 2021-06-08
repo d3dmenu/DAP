@@ -21,14 +21,13 @@
   </p>
 </p>
 
-### Installation
+### Command
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Create all data
+1. Select all data
    ```sh
    make all
    ```
-3. Select date range
+2. Select date range
    ```sh
    make jan 2021 dec 2022
    ```
@@ -38,7 +37,7 @@
    ```sh
    make jan dec 2022
    ```
-4. Select specific month | year
+3. Select specific month | year
    ```sh
    make {year} or make {month} {year}
    ```
