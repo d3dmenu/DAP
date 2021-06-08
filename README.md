@@ -24,15 +24,21 @@
 ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+2. Create all data
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   make all
    ```
-3. Install NPM packages
+3. Select date range
    ```sh
-   npm install
+   make jan 2021 dec 2022
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+   ```sh
+   make jan dec 2021 2022
+   ```
+   ```sh
+   make jan dec 2022
+   ```
+4. Select specific month | year
+   ```sh
+   make {year} or make {month} {year}
    ```
