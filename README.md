@@ -10,7 +10,7 @@
   <p align="center">
     Data analytics and process
     <br />
-    <a href="https://github.com/d3dmenu/DAP/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://www.codium.co/"><strong>« Codium »</strong></a>
     <br />
 <!--     <br />
     <a href="https://github.com/d3dmenu/DAP/blob/main/README.md">View Demo</a>
